@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="HashSet/HashSet.csproj" />
+  <Project Path="SPSStudent/SPSStudent.csproj" />
+</Solution>
