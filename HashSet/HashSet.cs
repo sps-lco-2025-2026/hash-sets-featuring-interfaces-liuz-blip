@@ -20,7 +20,6 @@ public class HashSet<T>
     {
         int index = item.GetHashCode() % _size;
         if (!_hashSet[index].Contains(item)) { _hashSet[index].Add(item); }
-        if (_hashSet[index].Count > 1) { _collisions++; }
     }
 
     public bool IsPresent(T item)
