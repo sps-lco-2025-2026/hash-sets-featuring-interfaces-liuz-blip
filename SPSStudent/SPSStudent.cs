@@ -1,4 +1,4 @@
-﻿namespace SPSStudent;
+﻿namespace SPSStudentClass;
 
 public class SPSStudent
 {

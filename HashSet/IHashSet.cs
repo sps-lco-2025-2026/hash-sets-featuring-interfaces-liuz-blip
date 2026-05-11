@@ -1,12 +1,19 @@
-﻿namespace HashSet;
+﻿namespace HashSetClass;
 
 
-public class HashSet<T>
+
+
+// I didn't think ahead when creating the class, since I forgot that C# already had a built in HashSet class
+// By the time I realised it was too late so the folders and files aren't named the same
+// For clarification it is the MyHashSet class that I created and tested
+
+
+public class MyHashSet<T>
 {
     private List<T>[] _hashSet;
     private readonly int _size;
 
-    public HashSet(int size)
+    public MyHashSet(int size)
     {
         _size = size;
         _hashSet = new List<T>[size];
